@@ -5,9 +5,9 @@ function test() {
     var n1 = BigInt(Number.MAX_SAFE_INTEGER) + BigInt("1");
     var n2 = BigInt(Number.MAX_SAFE_INTEGER);
     var nr = n1 + n2;
-    console.log(n1.toLocaleString());
-    console.log(n2.toLocaleString());
-    console.log(nr.toLocaleString());
+    console.log(n1.toString());
+    console.log(n2.toString());
+    console.log(nr.toString());
 }
 exports.test = test;
 test();
