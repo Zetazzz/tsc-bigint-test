@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json",
+    "start": "node output/index.js"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  }
+}
